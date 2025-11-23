@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run JumpMaze",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/JumpMaze.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/Users/priya/Downloads/mingw7.3/mingw64/bin/gdb.exe",
+      "preLaunchTask": "Build JumpMaze"
+    }
+  ]
+}

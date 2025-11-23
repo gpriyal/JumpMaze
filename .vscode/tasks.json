@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build JumpMaze",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "src/*.cpp",
+        "-Iinclude",
+        "-IC:/Users/priya/Downloads/SFML/SFML-2.5.1/include",
+        "-LC:/Users/priya/Downloads/SFML/SFML-2.5.1/lib",
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system",
+        "-o",
+        "JumpMaze.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
